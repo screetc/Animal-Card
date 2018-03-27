@@ -1,0 +1,63 @@
+body {
+    background-attachment: fixed;
+    background: url(https://images8.alphacoders.com/518/518733.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-family: "Finger Paint", cursive;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  font: 30px "Righteous", cursive;
+  color: #b36128;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dog-image {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  transition: all .5s ease-in-out;
+}
+
+.dog-image:hover {
+  border-radius: 25%;
+}
+
+.fact {
+  font: italic 17px "Titillium Web", sans-serif;
+}
+
+.labels {
+  font-weight: bold;
+}
+
+.description {
+  background-color: #fff;
+  text-align: justify;
+  border: 2px solid #da9870;
+  border-radius: 0 0 50px 50px;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  box-shadow: inset -2px -5px 152px 16px rgba(0,0,0,0.26);
+}
+
+#card {
+  background: url(https://t4.ftcdn.net/jpg/01/74/81/23/240_F_174812308_VU8dUWuHQmV5BwOh3ly00w9ArMwflh27.jpg);
+  border: 2px solid #603d27;
+  border-radius: 60px;
+  width: 300px;
+  box-shadow: 8px 8px 5px 0 rgba(0,0,0,0.08);
+  padding: 0 10px 10px 10px;
+  margin: 50px auto;
+}
